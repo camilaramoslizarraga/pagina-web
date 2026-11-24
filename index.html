@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio académico y profesional de una estudiante de Administración de Negocios.">
+  <title>Mi portafolio universitario</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/data.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="#inicio" class="logo">Mi Portafolio<span>.</span></a>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+      ☰
+    </button>
+
+    <nav id="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#perfil">Perfil</a>
+      <a href="#academico">Académico</a>
+      <a href="#cursos">Cursos</a>
+      <a href="#profesores">Profesores</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <p class="subtitle">ESTUDIANTE DE ADMINISTRACIÓN DE NEGOCIOS</p>
+        <h1>Hola, soy <span id="nombre">Tu nombre</span></h1>
+        <p id="presentacion">
+          Bienvenidos a mi portafolio académico y profesional.
+        </p>
+        <a href="#perfil" class="btn">Conoce más sobre mí</a>
+      </div>
+
+      <div class="hero-image">
+        <img id="foto-perfil" src="assets/perfil.jpg" alt="Fotografía personal">
+      </div>
+    </section>
+
+    <section id="perfil" class="section">
+      <h2>Sobre mí</h2>
+      <p id="biografia"></p>
+      <div id="habilidades" class="cards"></div>
+    </section>
+
+    <section id="academico" class="section section-light">
+      <h2>Rendimiento académico</h2>
+      <div id="rendimiento" class="cards"></div>
+    </section>
+
+    <section id="cursos" class="section">
+      <h2>Cursos de la carrera</h2>
+      <div id="lista-cursos" class="cards"></div>
+    </section>
+
+    <section id="profesores" class="section section-light">
+      <h2>Mis profesores</h2>
+      <div id="lista-profesores" class="cards"></div>
+    </section>
+
+    <section id="proyectos" class="section">
+      <h2>Proyectos y actividades universitarias</h2>
+      <div id="lista-proyectos" class="cards"></div>
+    </section>
+
+    <section id="intereses" class="section section-light">
+      <h2>Intereses y hobbies</h2>
+      <div id="lista-intereses" class="cards"></div>
+    </section>
+
+    <section id="companeros" class="section">
+      <h2>Mis compañeros</h2>
+      <div id="lista-companeros" class="cards"></div>
+    </section>
+
+    <section id="contacto" class="section contact">
+      <h2>Contacto</h2>
+      <p id="correo"></p>
+      <div id="redes-sociales"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Mi portafolio universitario.</p>
+    <p>Administración de Negocios</p>
+  </footer>
+
+</body>
+</html>
