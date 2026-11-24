@@ -1,0 +1,431 @@
+
+/* =================================
+   1. CONFIGURACIÓN GENERAL
+================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --primary: #167d78;
+    --primary-dark: #105e5b;
+    --dark: #192e38;
+    --text: #53636a;
+    --light: #f3f7f5;
+    --white: #ffffff;
+    --border: #e2eae6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark);
+    background: var(--white);
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section {
+    scroll-margin-top: 90px;
+}
+
+/* =================================
+   2. MENÚ DE NAVEGACIÓN
+================================= */
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(255,255,255,0.96);
+    backdrop-filter: blur(12px);
+    padding: 18px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: 800;
+    color: var(--dark);
+}
+
+.logo span {
+    color: var(--primary);
+}
+
+.header nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header nav a {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text);
+    transition: 0.3s;
+}
+
+.header nav a:hover {
+    color: var(--primary);
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+    color: var(--dark);
+}
+
+/* =================================
+   3. PRESENTACIÓN PRINCIPAL
+================================= */
+
+.hero {
+    min-height: 620px;
+    padding: 90px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.subtitle {
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: clamp(38px, 5vw, 65px);
+    line-height: 1.2;
+    margin-bottom: 20px;
+    letter-spacing: -2px;
+}
+
+.hero h1 span {
+    color: var(--primary);
+}
+
+.hero-content > p:not(.subtitle) {
+    font-size: 17px;
+    color: var(--text);
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 13px 27px;
+    background: var(--primary);
+    color: white;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: var(--primary-dark);
+    transform: translateY(-3px);
+}
+
+.hero-image {
+    width: 340px;
+    height: 420px;
+    flex-shrink: 0;
+    border-radius: 45% 45% 20px 20px;
+    overflow: hidden;
+    background: var(--light);
+    box-shadow: 0 20px 45px rgba(22,125,120,0.15);
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* =================================
+   4. SECCIONES GENERALES
+================================= */
+
+.section {
+    padding: 85px 10%;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 34px;
+    margin-bottom: 35px;
+    letter-spacing: -1px;
+}
+
+.section h2::after {
+    content: "";
+    display: block;
+    width: 55px;
+    height: 4px;
+    background: var(--primary);
+    margin: 12px auto 0;
+    border-radius: 10px;
+}
+
+.section-light {
+    background: var(--light);
+}
+
+/* =================================
+   5. TARJETAS Y CONTENIDO
+================================= */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    margin-top: 30px;
+}
+
+.card {
+    padding: 25px;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    text-align: left;
+    transition: 0.3s;
+    box-shadow: 0 5px 20px rgba(25,46,56,0.04);
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(25,46,56,0.09);
+    border-color: var(--primary);
+}
+
+.card h3 {
+    color: var(--dark);
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: var(--text);
+}
+
+.card a {
+    display: inline-block;
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+/* =================================
+   6. PERFIL Y HABILIDADES
+================================= */
+
+#biografia {
+    max-width: 850px;
+    margin: 0 auto;
+    color: var(--text);
+    font-size: 16px;
+}
+
+.skill {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #e4f2ee;
+    color: var(--primary-dark);
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+/* =================================
+   7. RENDIMIENTO ACADÉMICO
+================================= */
+
+.grade {
+    color: var(--primary);
+    font-size: 30px;
+    font-weight: 800;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* =================================
+   8. FOTOGRAFÍAS DE PERSONAS
+================================= */
+
+.person-photo {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* =================================
+   9. CONTACTO
+================================= */
+
+.contact {
+    background: var(--dark);
+    color: white;
+}
+
+.contact h2 {
+    color: white;
+}
+
+.contact p {
+    color: #d0dadd;
+}
+
+.contact a {
+    color: #8dd5c5;
+}
+
+/* =================================
+   10. PIE DE PÁGINA
+================================= */
+
+footer {
+    background: #10232c;
+    padding: 25px;
+    text-align: center;
+    color: #c6d0d2;
+    font-size: 13px;
+}
+
+/* =================================
+   11. DISEÑO PARA TABLETS
+================================= */
+
+@media (max-width: 1000px) {
+
+    .header nav {
+        gap: 10px;
+    }
+
+    .header nav a {
+        font-size: 11px;
+    }
+
+    .hero {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .section {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .hero-image {
+        width: 280px;
+        height: 350px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* =================================
+   12. DISEÑO PARA CELULARES
+================================= */
+
+@media (max-width: 700px) {
+
+    .header {
+        padding: 15px 6%;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .header nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: white;
+        padding: 20px;
+        flex-direction: column;
+        align-items: stretch;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    }
+
+    .header nav.active {
+        display: flex;
+    }
+
+    .header nav a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 55px;
+        gap: 35px;
+    }
+
+    .hero h1 {
+        font-size: 39px;
+    }
+
+    .hero-image {
+        width: 250px;
+        height: 310px;
+    }
+
+    .section {
+        padding: 65px 6%;
+    }
+
+    .section h2 {
+        font-size: 27px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        text-align: center;
+    }
+
+    #biografia {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 11px;
+    }
+}
