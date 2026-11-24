@@ -10,13 +10,13 @@
   --primary: #654477;
   --primary-dark: #493258;
   --text: #352B3C;
+  --dark: #352B3C;
   --light: #FAF8FC;
   --white: #FFFFFF;
   --border: #E8DFEE;
   --lavender: #A88BC0;
   --lavender-light: #EDE5F3;
 }
-
 
 * {
     margin: 0;
