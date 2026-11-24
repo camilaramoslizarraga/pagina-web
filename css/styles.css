@@ -5,15 +5,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
+
 :root {
-    --primary: #167d78;
-    --primary-dark: #105e5b;
-    --dark: #192e38;
-    --text: #53636a;
-    --light: #f3f7f5;
-    --white: #ffffff;
-    --border: #e2eae6;
+  --primary: #654477;
+  --primary-dark: #493258;
+  --text: #352B3C;
+  --light: #FAF8FC;
+  --white: #FFFFFF;
+  --border: #E8DFEE;
+  --lavender: #A88BC0;
+  --lavender-light: #EDE5F3;
 }
+
 
 * {
     margin: 0;
