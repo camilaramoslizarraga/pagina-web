@@ -112,7 +112,7 @@ const data = {
   {
     nombre: "Qhantaña Joven Arequipa",
     descripcion: "Formo parte de esta organización juvenil que participa en iniciativas de apoyo social dirigidas a distintos sectores de nuestra comunidad, incluyendo asilos, albergues de animales rescatados y niños de comunidades aledañas. Esta experiencia fortalece mi compromiso con la empatía, la solidaridad y la participación juvenil.",
-    foto: "assets/qhantala.jpg"
+    foto: "assets/qhantala.jpg",
   },
   {
     nombre: "Liderazgo en 100 palabras - Chile",
