@@ -134,41 +134,42 @@ const data = {
     "Viajes y nuevas experiencias"
   ],
 
-    classmates: [
-    {
-      nombre: "Chiara Ticona",
-      descripcion: "Compañera de Administración de Negocios.",
-      url: ""
-    },
-    {
-      nombre: "Génesis Mollocondo",
-      descripcion: "Compañera de Administración de Negocios.",
-      url: ""
-    },
-    {
-      nombre: "Xiomara Mamani",
-      descripcion: "Compañera de Administración de Negocios.",
-      url: "https://xiomaramamanihuamani-dot.github.io/pagina-web/"
-    },
-    {
-      nombre: "Ayde Jaquis",
-      descripcion: "Compañera de Administración de Negocios.",
-      url: ""
-    },
-    {
-      nombre: "Miriam Yana",
-      descripcion: "Compañera de Contabilidad.",
-      url: ""
-    },
-    {
-      nombre: "Emely Mirella",
-      descripcion: "Compañera de Administración de Negocios.",
-      url: "https://emelyancari-ops.github.io"
-    },
-    {
-      nombre: "Alexia Cayo Ccasa",
-      descripcion: "Compañera de Administración de Negocios.",
-      url: "https://alexiacayo19.github.io/"
+   
+classmates: [
+  {
+    nombre: "Chiara Ticona",
+    descripcion: "Compañera de Administración de Negocios.",
+    url: "https://chiaraticona-source.github.io/"
+  },
+  {
+    nombre: "Génesis Mollocondo",
+    descripcion: "Compañera de Administración de Negocios.",
+    url: ""
+  },
+  {
+    nombre: "Xiomara Mamani",
+    descripcion: "Compañera de Administración de Negocios.",
+    url: "https://xiomaramamanihuamani-dot.github.io/pagina-web/"
+  },
+  {
+    nombre: "Ayde Jaquis",
+    descripcion: "Compañera de Administración de Negocios.",
+    url: ""
+  },
+  {
+    nombre: "Miriam Yana",
+    descripcion: "Compañera de Contabilidad.",
+    url: ""
+  },
+  {
+    nombre: "Emely Mirella",
+    descripcion: "Compañera de Administración de Negocios.",
+    url: "https://emelyanccari-ops.github.io/"
+  },
+  {
+    nombre: "Alexia Cayo Ccasa",
+    descripcion: "Compañera de Administración de Negocios.",
+    url: "https://alexiacayo19.github.io/"
     }
   ]
 };
