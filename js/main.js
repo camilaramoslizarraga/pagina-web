@@ -57,11 +57,30 @@ document.addEventListener("DOMContentLoaded", () => {
     <p>${profesor.descripcion}</p>
   `);
 
-  // Proyectos universitarios.
   mostrarTarjetas("lista-proyectos", data.projects, proyecto => `
-    <h3>${proyecto.nombre}</h3>
-    <p>${proyecto.descripcion}</p>
-  `);
+  ${proyecto.foto ? `
+    <img
+      src="${proyecto.foto}"
+      alt="${proyecto.nombre}"
+      class="project-image"
+    >
+  ` : ""}
+
+  <h3>${proyecto.nombre}</h3>
+
+  <p>${proyecto.descripcion}</p>
+
+  ${proyecto.enlace ? `
+    <a
+      href="${proyecto.enlace}"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="project-link"
+    >
+      Conocer más sobre esta experiencia
+    </a>
+  ` : ""}
+`);
 
   // Intereses y hobbies.
   mostrarTarjetas("lista-intereses", data.interests, interes => `
