@@ -5,7 +5,7 @@ const data = {
     carrera: "Administración de Negocios",
     presentacion: "Estudiante de cuarto semestre de Administración de Negocios en la Universidad Católica San Pablo.",
     biografia: "Me interesa el liderazgo, el desarrollo social y la creación de iniciativas que generen un impacto positivo en la sociedad. Me considero una persona comprometida con su crecimiento personal y académico, abierta a nuevas experiencias y motivada por aprender de diferentes entornos y perspectivas. Creo que el aprendizaje también se construye mediante las experiencias, la colaboración y el contacto con distintas realidades.",
-    foto: "",
+  foto: "assets/perfil.jpg",
     correo: "camila.ramos2091@gmail.com",
     redes: [
       {
