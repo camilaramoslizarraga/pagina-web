@@ -50,21 +50,20 @@ document.addEventListener("DOMContentLoaded", () => {
     <p>${curso.descripcion}</p>
   `);
 
-  // Profesores.
-  mostrarTarjetas("lista-profesores", data.professors, profesor => `
-    <h3>${profesor.nombre}</h3>
-    <p><strong>Curso:</strong> ${profesor.curso}</p>
-    <p>${profesor.descripcion}</p>
-  `);
-
-  mostrarTarjetas("lista-proyectos", data.projects, proyecto => `
-  ${proyecto.foto ? `
-    <img
-      src="${proyecto.foto}"
-      alt="${proyecto.nombre}"
-      class="project-image"
-    >
+ // Profesores.
+mostrarTarjetas("lista-profesores", data.professors, profesor => `
+  <h3>${profesor.nombre}</h3>
+  <p><strong>Curso:</strong> ${profesor.curso}</p>
+  <p>${profesor.descripcion}</p>
+  ${profesor.url ? `
+    <a href="${profesor.url}"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="project-link">
+       Ver perfil de LinkedIn
+    </a>
   ` : ""}
+`);
 
   <h3>${proyecto.nombre}</h3>
 
