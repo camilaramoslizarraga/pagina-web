@@ -134,40 +134,41 @@ const data = {
     "Viajes y nuevas experiencias"
   ],
 
-  classmates: [
+    classmates: [
     {
       nombre: "Chiara Ticona",
-      descripcion: ""
+      descripcion: "Compañera de Administración de Negocios.",
+      url: ""
     },
     {
       nombre: "Génesis Mollocondo",
-      descripcion: ""
+      descripcion: "Compañera de Administración de Negocios.",
+      url: ""
     },
     {
       nombre: "Xiomara Mamani",
-      descripcion: ""
-       url: "https://xiomaramamanihuamani-dot.github.io/pagina-web/"
+      descripcion: "Compañera de Administración de Negocios.",
+      url: "https://xiomaramamanihuamani-dot.github.io/pagina-web/"
     },
     {
       nombre: "Ayde Jaquis",
-      descripcion: ""
+      descripcion: "Compañera de Administración de Negocios.",
+      url: ""
     },
     {
       nombre: "Miriam Yana",
-      descripcion: "compañera de contabilida"
+      descripcion: "Compañera de Contabilidad.",
+      url: ""
+    },
+    {
+      nombre: "Emely Mirella",
+      descripcion: "Compañera de Administración de Negocios.",
+      url: "https://emelyancari-ops.github.io"
+    },
+    {
+      nombre: "Alexia Cayo Ccasa",
+      descripcion: "Compañera de Administración de Negocios.",
+      url: "https://alexiacayo19.github.io/"
     }
   ]
 };
-{
-    nombre: "Emely Mirellla",
-    descripcion: "Compañero de Administración de Negocios.",
-    url: "https://emelyanccari-ops.github.io"
-  }
-],
-{
-    nombre: "Alexia Cayo Ccasa",
-    descripcion: "Compañero de Administración de Negocios.",
-    url: "https://roachsanders.github.io/Gerald-Raphael-Vilca-Ramirez/
-https://alexiacayo19.github.io"
-  }
-],
