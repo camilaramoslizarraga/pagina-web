@@ -146,6 +146,7 @@ const data = {
     {
       nombre: "Xiomara Mamani",
       descripcion: ""
+       url: "https://xiomaramamanihuamani-dot.github.io/pagina-web/"
     },
     {
       nombre: "Ayde Jaquis",
@@ -153,7 +154,20 @@ const data = {
     },
     {
       nombre: "Miriam Yana",
-      descripcion: ""
+      descripcion: "compañera de contabilida"
     }
   ]
 };
+{
+    nombre: "Emely Mirellla",
+    descripcion: "Compañero de Administración de Negocios.",
+    url: "https://emelyanccari-ops.github.io"
+  }
+],
+{
+    nombre: "Alexia Cayo Ccasa",
+    descripcion: "Compañero de Administración de Negocios.",
+    url: "https://roachsanders.github.io/Gerald-Raphael-Vilca-Ramirez/
+https://alexiacayo19.github.io"
+  }
+],
