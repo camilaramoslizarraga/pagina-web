@@ -474,4 +474,22 @@ footer {
     height: 220px;
   }
 }
+/* Ajuste del tamaño de las fotos de proyectos */
+
+.project-image {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 190px;
+  object-fit: cover;
+  object-position: center;
+  margin: 0 auto 18px;
+  border-radius: 14px;
+}
+
+/* Evitar que las tarjetas se estiren demasiado */
+
+#lista-proyectos .card {
+  overflow: hidden;
+}
 
