@@ -70,43 +70,51 @@ const data = {
     }
   ],
 
-  professors: [
-    {
-      nombre: "Ernesto Cuadros Vargas",
-      curso: "Introducción a la Computación",
-      descripcion: ""
-    },
-    {
-      nombre: "Claudia Mabel Calisaya Carpio",
-      curso: "Desarrollo de Habilidades para el Trabajo en Equipo",
-      descripcion: ""
-    },
-    {
-      nombre: "Rosa Elena Arpita Deza",
-      curso: "Cálculo en Varias Variables",
-      descripcion: ""
-    },
-    {
-      nombre: "José Miguel Montoro Benavente",
-      curso: "Matemática Financiera y Costos y Planeamiento Presupuestal",
-      descripcion: ""
-    },
-    {
-      nombre: "Antestonio Besich Adrian",
-      curso: "Historia de Occidente 2",
-      descripcion: ""
-    },
-    {
-      nombre: "Daniel Huanca Mosaja",
-      curso: "Estadística y Probabilidad",
-      descripcion: ""
-    },
-    {
-      nombre: "Carlos Renzo Rivera Calcina",
-      curso: "Taller de Metodología de la Investigación",
-      descripcion: ""
-    }
-  ],
+ 
+professors: [
+  {
+    nombre: "Ernesto Cuadros Vargas",
+    curso: "Introducción a la Computación",
+    descripcion: "",
+    url: "https://www.linkedin.com/in/ecuadrosv/"
+  },
+  {
+    nombre: "Claudia Mabel Calisaya Carpio",
+    curso: "Desarrollo de Habilidades para el Trabajo en Equipo",
+    descripcion: "",
+    url: "https://www.linkedin.com/in/claudia-calisaya-carpio-5821a0173/"
+  },
+  {
+    nombre: "Rosa Elena Arpita Deza",
+    curso: "Cálculo en Varias Variables",
+    descripcion: "",
+    url: "https://www.linkedin.com/in/rosa-deza-b0245514b/"
+  },
+  {
+    nombre: "José Miguel Montoro Benavente",
+    curso: "Matemática Financiera y Costos y Planeamiento Presupuestal",
+    descripcion: "",
+    url: "https://www.linkedin.com/in/jose-montoro-benavente-96b73023/"
+  },
+  {
+    nombre: "Antestonio Besich Adrian",
+    curso: "Historia de Occidente 2",
+    descripcion: "",
+    url: "https://www.linkedin.com/in/antonio-besich-adrian-9827aa376/"
+  },
+  {
+    nombre: "Daniel Huanca Mosaja",
+    curso: "Estadística y Probabilidad",
+    descripcion: "",
+    url: ""
+  },
+  {
+    nombre: "Carlos Renzo Rivera Calcina",
+    curso: "Taller de Metodología de la Investigación",
+    descripcion: "",
+    url: ""
+  }
+],
 
  projects: [
   {
