@@ -108,21 +108,23 @@ const data = {
     }
   ],
 
-  projects: [
-    {
-      nombre: "Qhantala Joven Arequipa",
-      descripcion: "Formo parte de esta organización juvenil que participa en iniciativas de apoyo social dirigidas a distintos sectores de nuestra comunidad, incluyendo asilos, albergues de animales rescatados y niños de comunidades aledañas. Esta experiencia fortalece mi compromiso con la empatía, la solidaridad y la participación juvenil."
-    },
-    {
-      nombre: "Liderazgo en 100 palabras - Chile",
-      descripcion: "Experiencia internacional de liderazgo juvenil en Chile, donde compartimos nuestras historias y experiencias y recibimos un reconocimiento. Este encuentro fortaleció mi interés por el liderazgo, la colaboración y la generación de cambios positivos.",
-      enlace: "https://www.espaciomejor.org/100palabras/"
-    },
-    {
-      nombre: "Mi proyecto a futuro: una ONG",
-      descripcion: "Sueño con fundar una organización sin fines de lucro enfocada en orientar, acompañar y empoderar a mujeres y niñas de entornos vulnerables mediante oportunidades educativas y de desarrollo laboral. También deseo reunir a jóvenes voluntarios que compartan este propósito."
-    }
-  ],
+ projects: [
+  {
+    nombre: "Qhantaña Joven Arequipa",
+    descripcion: "Formo parte de esta organización juvenil que participa en iniciativas de apoyo social dirigidas a distintos sectores de nuestra comunidad, incluyendo asilos, albergues de animales rescatados y niños de comunidades aledañas. Esta experiencia fortalece mi compromiso con la empatía, la solidaridad y la participación juvenil.",
+    foto: "assets/qhantala.jpg"
+  },
+  {
+    nombre: "Liderazgo en 100 palabras - Chile",
+    descripcion: "Experiencia internacional de liderazgo juvenil en Chile, donde compartimos nuestras historias y experiencias y recibimos un reconocimiento. Este encuentro fortaleció mi interés por el liderazgo, la colaboración y la generación de cambios positivos.",
+    foto: "assets/Liderazgo-chile.jpg",
+    enlace: "https://www.espaciomejor.org/100palabras/"
+  },
+  {
+    nombre: "Mi proyecto a futuro: una ONG",
+    descripcion: "Sueño con fundar una organización sin fines de lucro enfocada en orientar, acompañar y empoderar a mujeres y niñas de entornos vulnerables mediante oportunidades educativas y de desarrollo laboral. También deseo reunir a jóvenes voluntarios que compartan este propósito."
+  }
+],
 
   interests: [
     "Voleibol",
