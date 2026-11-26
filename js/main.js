@@ -50,7 +50,8 @@ document.addEventListener("DOMContentLoaded", () => {
     <p>${curso.descripcion}</p>
   `);
 
- // Profesores.
+
+// Profesores.
 mostrarTarjetas("lista-profesores", data.professors, profesor => `
   <h3>${profesor.nombre}</h3>
   <p><strong>Curso:</strong> ${profesor.curso}</p>
@@ -60,45 +61,28 @@ mostrarTarjetas("lista-profesores", data.professors, profesor => `
        target="_blank"
        rel="noopener noreferrer"
        class="project-link">
-       Ver perfil de LinkedIn
+      Ver perfil de LinkedIn
     </a>
   ` : ""}
 `);
 
+// Proyectos.
+mostrarTarjetas("lista-proyectos", data.projects, proyecto => `
+  ${proyecto.foto ? `
+    <img src="${proyecto.foto}"
+         alt="${proyecto.nombre}"
+         class="project-image">
+  ` : ""}
   <h3>${proyecto.nombre}</h3>
-
   <p>${proyecto.descripcion}</p>
-
   ${proyecto.enlace ? `
-    <a
-      href="${proyecto.enlace}"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="project-link"
-    >
-      Conocer más sobre esta experiencia
+    <a href="${proyecto.enlace}"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="project-link">
+      Visitar página web
     </a>
   ` : ""}
-`);
-
-  // Intereses y hobbies.
-  mostrarTarjetas("lista-intereses", data.interests, interes => `
-    <h3>${interes}</h3>
-  `);
-
-// Compañeros.
-mostrarTarjetas("lista-companeros", data.classmates, companero => `
-    <h3>${companero.nombre}</h3>
-    <p>${companero.descripcion}</p>
-
-    ${companero.url ? `
-        <a href="${companero.url}"
-           target="_blank"
-           rel="noopener noreferrer"
-           class="project-link">
-           Visitar página web
-        </a>
-    ` : ""}
 `);
 
   // Redes sociales.
