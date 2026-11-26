@@ -84,6 +84,24 @@ mostrarTarjetas("lista-proyectos", data.projects, proyecto => `
     </a>
   ` : ""}
 `);
+  // Intereses y hobbies.
+  mostrarTarjetas("lista-intereses", data.interests, interes => `
+    <h3>${interes}</h3>
+  `);
+
+  // Compañeros.
+  mostrarTarjetas("lista-companeros", data.classmates, companero => `
+    <h3>${companero.nombre}</h3>
+    <p>${companero.descripcion}</p>
+    ${companero.url ? `
+      <a href="${companero.url}"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="project-link">
+        Visitar su página web
+      </a>
+    ` : ""}
+  `);
 
   // Redes sociales.
   const redes = document.getElementById("redes-sociales");
